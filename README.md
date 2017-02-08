@@ -10,6 +10,8 @@ After imaging and booting for the first time log in with default pi / raspberry 
 ```
 $ sudo apt-get update
 $ sudo apt-get install python3
+$ sudo apt-get install python3-pip
 $ sudo apt-get install git
-git clone https://github.com/mrhockeymonkey/DotPunch.git
+$ sudo pip3 install RPi.GPIO
+$ git clone https://github.com/mrhockeymonkey/DotPunch.git
 ```
